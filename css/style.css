@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+}
+
+body {
+	font: Arial, sans-serif;
+}
+.menu {
+	width: 1170px;
+	min-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	margin-top: 30px;
+}
+.pick-city {
+	vertical-align: top;
+	margin-top: 50px;
+	margin-left: 121px;
+}
+
+.text-city {
+	color: #383838;
+	margin-left: 4px;
+}
+
+.choose {
+	outline: 0;
+	border: 0;
+	color: grey;
+}
+
+.appointment{
+	vertical-align: top;
+	margin-top: 65px;
+}
+.appointment a{
+	margin-left: 121px;
+	background: #00c853;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	font-weight: bold;
+}
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+.number {
+	margin-left: 131px;
+	color: #383838;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+.logo, .pick-city, .appointment, .number {
+	display: inline-block;
+}
+
+.number-p {
+	color: #01c0dd;
+	font-weight: bold;
+	font-size: 30px;
+}
+.number-text {
+	margin-left: 18px;
+}
