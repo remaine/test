@@ -70,3 +70,10 @@ a:link {
 .number-text {
 	margin-left: 18px;
 }
+
+
+.bg-filter {
+	margin-top: 41px;
+	background-image: url(img/bg-filter-docs.jpg);
+	background-repeat: repeat;
+}
