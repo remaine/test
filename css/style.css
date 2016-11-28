@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -80,15 +81,19 @@ a:link {
 	height: 384px;
 }
 
+.filter-text {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .filter-h2 {
 	color: #fff;
-	margin-left: 375px;
 	padding-top: 60px;
 }
 
 .filter-p {
 	color: #fff;
-	margin-left: 375px;
 	padding-top: 10px;
 }
 
@@ -139,4 +144,72 @@ a:link {
 	color: #fff;
 	padding-top: 15px;
 	font-weight: bold;
+}
+
+.choose-doc {
+	margin-top: 20px;
+	width: 1170px;
+	min-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.choose-doc ul {
+	margin-left: 0;
+}
+.choose-doc li {
+	display: inline;
+	font-weight: bold;
+	padding-right: 69px;
+	color: #262626;
+}
+
+.choose-doc li:hover {
+	display: inline;
+	padding-right: 69px;
+	color: #01c0dd;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: solid 4px;
+	padding-bottom: 20px;
+}
+
+.main-popular {
+	margin-top: 23px;
+	height: 1000px;
+	background-color: #f1f1f1;
+}
+
+.popular-doc {
+	padding-top: 50px;
+	width: 1170px;
+	min-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.doctors1 {
+	width: 1170px;
+	min-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.doctor1, .doctor2, .doctor3, .doctor4, .doctor5, .doctor6, .doctor7, .doctor8 {
+	display: inline-block;
+	margin-top: 27px;
+	width: 270px;
+	height: 400px;
+	background-color: #fff;
+}
+
+.doctor1, .doctor2, .doctor3, .doctor5, .doctor6, .doctor7 {
+	margin-right: 25px;
+}
+
+.doctors2 {
+	width: 1170px;
+	min-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
 }
