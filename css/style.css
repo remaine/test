@@ -19,12 +19,12 @@ body {
 .pick-city {
 	vertical-align: top;
 	margin-top: 50px;
-	margin-left: 121px;
+	padding-left: 121px;
 }
 
 .text-city {
 	color: #383838;
-	margin-left: 4px;
+	padding-left: 4px;
 }
 
 .choose {
@@ -154,9 +154,7 @@ a:link {
 	margin-right: auto;
 }
 
-.choose-doc ul {
-	margin-left: 0;
-}
+
 .choose-doc li {
 	display: inline;
 	font-weight: bold;
@@ -188,7 +186,7 @@ a:link {
 	margin-right: auto;
 }
 
-.doctors1 {
+.docs-list1, .docs-list2 {
 	width: 1170px;
 	min-width: 1170px;
 	margin-left: auto;
@@ -201,15 +199,57 @@ a:link {
 	width: 270px;
 	height: 400px;
 	background-color: #fff;
+	border: 1px solid grey;
 }
 
 .doctor1, .doctor2, .doctor3, .doctor5, .doctor6, .doctor7 {
-	margin-right: 25px;
+	margin-right: 20px;
 }
 
-.doctors2 {
+.footer {
+	height: 144px;
+	background: #01c0dd;
+}
+
+.footer-logo {
+	padding-bottom: 11px;
+	padding-top: 25px;
+}
+
+.footer-content {
 	width: 1170px;
 	min-width: 1170px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.footer-left, .footer-right, .footer-menu1, .footer-menu2 {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.footer-menu1 li {
+	list-style-type: none;
+	color: #fff;
+	line-height: 1.9;
+}
+
+.footer-menu2 li {
+	list-style-type: none;
+	color: #fff;
+	line-height: 1.9;
+}
+
+.footer-text {
+	color: #FFF;
+	width: 250px;
+}
+
+.footer-right {
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+.footer-menu2 {
+	margin-left: 35px;
 }
