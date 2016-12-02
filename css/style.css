@@ -193,14 +193,23 @@ body {
 	margin-right: auto;
 }
 
+
+
+/* ЗДЕСЬ Я РЕДАКТИРОВАЛ */
+
 .doctor1, .doctor2, .doctor3, .doctor4, .doctor5, .doctor6, .doctor7, .doctor8 {
 	display: inline-block;
 	margin-top: 27px;
-	width: 270px;
+	width: 240px; /* уменьшилось за счет padding */
 	height: 400px;
 	background-color: #fff;
 	border: 1px solid grey;
+    padding-left: 15px; /* внутренний отступ слева */
+    padding-right: 15px;/* внутренний отступ справо */
 }
+
+/* ./--ЗДЕСЬ Я РЕДАКТИРОВАЛ */
+
 
 .doctor1, .doctor2, .doctor3, .doctor5, .doctor6, .doctor7 {
 	margin-right: 20px;
@@ -254,17 +263,67 @@ body {
 	margin-left: 35px;
 }
 
+
+
+
+/* ЗДЕСЬ Я РЕДАКТИРОВАЛ */
+
+/* добавляем общему контейнеру отступ сверху */
+.rating {
+    margin-top: 15px;
+}
+
 .rating-number, .rating-favor {
 	display: inline-block;
 }
 
-.rating-favor {
-	margin-top: 20px;
-	margin-left: 140px;
+/* позиционируем слева */
+.rating-number {
+    float: left;
 }
+
+/* позиционируем справа */
+.rating-favor {
+    float: right;
+    padding-top: 10px; /* делаем внутренний отступ, чтобы сердце было на одном уровне с рйетингом */
+}
+
+/* задаем span блочную модель */
+.rating-number span {
+    display: block;
+}
+
+/* задаем цифрам параметры */
+.number-rate {
+    font-size: 30px;
+    color: #01c0dd;
+    font-weight: bold;
+}
+
+/* вторую цифру оборачиваем в small и задаем кегль */
+.number-rate small {
+    font-size: 20px;
+}
+
+/* теперь задаем параметры слову "рейтинг" */
+.text-rate {
+    font-size: 11px;
+    color: #908f8f;
+    text-align: center;
+    margin-top: -5px;
+}
+
+
+/* ./--ЗДЕСЬ Я РЕДАКТИРОВАЛ */
+
+
 
 .container-foto {
 
+}
+
+.clear {
+    clear: both;
 }
 
 .foto-doc {
